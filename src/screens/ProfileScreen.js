@@ -151,16 +151,16 @@ const ProfileScreen = ({ navigation }) => {
           title="Contact Us"
           subtitle="Get in touch with our team"
           onPress={() => {
-            Alert.alert('Contact Us', 'Email: support@explorelk.com\nPhone: +94 11 123 4567');
+            Alert.alert('Contact Us', 'Email: support@GoMate.com\nPhone: +94 11 123 4567');
           }}
         />
 
         <ProfileOption
           icon="star"
           title="Rate App"
-          subtitle="Help us improve ExploreLK"
+          subtitle="Help us improve GoMate"
           onPress={() => {
-            Alert.alert('Rate App', 'Thank you for using ExploreLK! Please rate us on the app store.');
+            Alert.alert('Rate App', 'Thank you for using GoMate! Please rate us on the app store.');
           }}
         />
 
@@ -170,8 +170,8 @@ const ProfileScreen = ({ navigation }) => {
           subtitle="Version 1.0.0"
           onPress={() => {
             Alert.alert(
-              'About ExploreLK',
-              'ExploreLK v1.0.0\n\nDiscover the beauty of Sri Lanka with our comprehensive travel guide. Find the best destinations, plan your trips, and create unforgettable memories.\n\n© 2024 ExploreLK. All rights reserved.'
+              'About GoMate',
+              'GoMate v1.0.0\n\nDiscover the beauty of Sri Lanka with our comprehensive travel guide. Find the best destinations, plan your trips, and create unforgettable memories.\n\n© 2024 GoMate. All rights reserved.'
             );
           }}
         />

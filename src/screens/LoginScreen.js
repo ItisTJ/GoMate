@@ -51,11 +51,11 @@ const LoginScreen = ({ navigation }) => {
       <View style={styles.header}>
         <Image
           source={{
-            uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHKvFhwRA89iwRN_XZ4TPIVKj2rC92WF8N4A&s',
+            uri: 'https://dth.travel/wp-content/uploads/2023/10/AdobeStock_281615264-scaled.jpeg',
           }}
           style={styles.headerImage}
         />
-        <Text style={styles.title}>Welcome to ExploreLK</Text>
+        <Text style={styles.title}>Welcome to GoMate zone</Text>
         <Text style={styles.subtitle}>Discover the Pearl of the Indian Ocean</Text>
       </View>
 

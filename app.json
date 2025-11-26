@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ExploreLK - Tourist Guide",
-    "slug": "explorelk-tourist-guide",
+    "name": "GoMate - Tourist Guide",
+    "slug": "GoMate-tourist-guide",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,7 +18,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.explorelk.touristguide",
+      "bundleIdentifier": "com.GoMate.touristguide",
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "This app needs access to your location to show you nearby places and help with navigation."
       }
@@ -29,7 +29,7 @@
         "backgroundColor": "#FF9933"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.explorelk.touristguide",
+      "package": "com.GoMate.touristguide",
       "permissions": [
         "ACCESS_FINE_LOCATION",
         "ACCESS_COARSE_LOCATION"

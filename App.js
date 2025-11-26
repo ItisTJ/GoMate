@@ -1,6 +1,7 @@
 import 'react-native-gesture-handler';
 import React, { useEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
+import { Text } from 'react-native';
 import { Provider, useDispatch, useSelector } from 'react-redux';
 import { store } from './src/store/store';
 import { loadUserFromStorage } from './src/store/slices/authSlice';
@@ -35,6 +36,16 @@ const AppContent = () => {
 };
 
 export default function App() {
+  // Set safe default Text props to avoid truncation across platforms
+  try {
+    if (Text.defaultProps == null) Text.defaultProps = {};
+    // Ensure text wraps and font scaling is allowed by default
+    Text.defaultProps.allowFontScaling = true;
+    Text.defaultProps.style = { ...(Text.defaultProps.style || {}), flexWrap: 'wrap' };
+  } catch (e) {
+    // defensive: ignore if environment doesn't allow modifying defaults
+  }
+
   return (
     <Provider store={store}>
       <AppContent />

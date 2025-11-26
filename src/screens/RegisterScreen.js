@@ -60,7 +60,7 @@ const RegisterScreen = ({ navigation }) => {
           <Feather name="arrow-left" size={24} color={Colors.deepSaffron} />
         </TouchableOpacity>
         <Text style={styles.title}>Create Account</Text>
-        <Text style={styles.subtitle}>Join ExploreLK community</Text>
+        <Text style={styles.subtitle}>Join GoMate community</Text>
       </View>
 
       <View style={styles.formContainer}>
@@ -211,7 +211,7 @@ const RegisterScreen = ({ navigation }) => {
           disabled={loading}
         >
           <Text style={styles.registerButtonText}>
-            {loading ? 'Creating Account...' : 'Create Account'}
+            {loading ? 'Creating Account... s' : 'Create Account'}
           </Text>
         </TouchableOpacity>
 

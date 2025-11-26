@@ -1,4 +1,4 @@
-# ExploreLK - Tourist Destinations & Travel Planner 🏖️
+# GoMate - Tourist Destinations & Travel Planner 🏖️
 
 A comprehensive React Native mobile application for exploring Sri Lankan tourist destinations, built with Expo.
 
@@ -92,8 +92,8 @@ A comprehensive React Native mobile application for exploring Sri Lankan tourist
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ExploreLK.git
-cd ExploreLK
+git clone https://github.com/yourusername/GoMate.git
+cd GoMate
 ```
 
 2. Install dependencies:
@@ -177,4 +177,4 @@ This project is created for educational purposes as part of the IN3210 Mobile Ap
 
 ---
 
-**ExploreLK** - Discover the Pearl of the Indian Ocean 🇱🇰
+**GoMate** - Discover the Pearl of the Indian Ocean 🇱🇰
